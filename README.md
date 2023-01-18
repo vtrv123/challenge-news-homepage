@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://vtrv123.github.io/challengeIntroWithSignup/)
+- Live Site URL: (https://vtrv123.github.io/challengeNewsHomepage/)
 
 ## My process
 
