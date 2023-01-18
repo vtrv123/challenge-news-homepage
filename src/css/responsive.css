@@ -1,0 +1,115 @@
+@media (max-width: 500px) {
+  body {
+    padding: 42px 0px 42px 0px;
+    scroll-padding-bottom: 32px;
+    width: 315px;
+    margin: 0 auto;
+  }
+
+  .header-nav {
+    background-color: rgba(255, 255, 255, 0.98);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 110vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+
+    /*Hide navigation */
+    /*Allows no transitions at all*/
+    /* display: none; */
+
+    /* 1) Hide the element visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard  */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-links {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  /* remover nav-open */
+  .nav-open .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .close-menu-icon {
+    display: block;
+    z-index: 1000;
+  }
+
+  .nav-open .open-menu-icon {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: flex;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    width: 315px;
+  }
+
+  .main-image {
+    grid-column: 1;
+
+    height: 300px;
+  }
+  .question-title {
+    grid-column: 1;
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .question-details {
+    grid-column: 1;
+  }
+
+  .question-text {
+    margin-bottom: 20px;
+  }
+
+  .read-more {
+    display: block;
+    width: 164px;
+    margin-bottom: 64px;
+  }
+
+  .news-aside {
+    grid-column: 1;
+    grid-row: 4/5;
+  }
+
+  .aside-title {
+    font-size: 30px;
+  }
+
+  .news-subtitle {
+    font-size: 14px;
+  }
+
+  .page-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .bottom-spacing {
+    height: 52px;
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+
+    <script defer src="src/js/script.js"></script>
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <img class="logo" src="src/images/logo.svg" />
+      <nav class="header-nav">
+        <a href="#" class="nav-links">Home</a>
+        <a href="#" class="nav-links">New</a>
+        <a href="#" class="nav-links">Popular</a>
+        <a href="#" class="nav-links">Trending</a>
+        <a href="#" class="nav-links">Categories</a>
+      </nav>
+      <btn class="btn-mobile-nav">
+        <img class="open-menu-icon" src="src/images/icon-menu.svg" />
+        <img class="close-menu-icon" src="src/images/icon-menu-close.svg" />
+      </btn>
+    </header>
+    <div class="grid-container">
+      <img class="main-image" src="src/images/image-web-3-desktop.jpg" />
+      <aside class="news-aside">
+        <h2 class="aside-title">New</h2>
+        <div class="aside-content">
+          <div class="news">
+            <h4 class="news-title">Hydrogen VS Electric Cars</h4>
+            <p class="news-subtitle">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="line">&nbsp;</div>
+          <div class="news">
+            <h4 class="news-title">The Downsides of AI Artistry</h4>
+            <p class="news-subtitle">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="line">&nbsp;</div>
+          <div class="news">
+            <h4 class="news-title">Is VC Funding Drying Up?</h4>
+            <p class="news-subtitle">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </aside>
+      <h1 class="question-title">The Bright Future of Web 3.0?</h1>
+      <div class="question-details">
+        <p class="question-text">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a href="#" class="read-more">READ MORE</a>
+      </div>
+
+      <footer class="page-footer">
+        <div class="footer-card">
+          <img src="src/images/image-retro-pcs.jpg" />
+          <div class="card-details">
+            <p class="card-number">01</p>
+            <h4 class="card-title">Reviving Retro PCs</h4>
+            <p class="card-text">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="footer-card">
+          <img src="src/images/image-top-laptops.jpg" />
+          <div class="card-details">
+            <p class="card-number">02</p>
+            <h4 class="card-title">Top 10 laptops of 2022</h4>
+            <p class="card-text">
+              Our best picks for various needs and budgets
+            </p>
+          </div>
+        </div>
+        <div class="footer-card">
+          <img src="src/images/image-gaming-growth.jpg" />
+          <div class="card-details">
+            <p class="card-number">03</p>
+            <h4 class="card-title">The Growth of Gaming</h4>
+            <p class="card-text">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <div class="bottom-spacing"></div>
+    </div>
+  </body>
+</html>
