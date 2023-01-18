@@ -19,7 +19,7 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
-###Desktop
+#### Desktop
 ![](./screenshot-desktop.png)
 
 #### Mobile
